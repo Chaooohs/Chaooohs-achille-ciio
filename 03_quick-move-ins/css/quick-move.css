@@ -1,0 +1,102 @@
+/* #region //-block one */
+.quick__chapter {
+  display: flex;
+  padding: 120px 0 170px 78px;
+  background-color: #F4F1E7;
+}
+.quick__left {
+  width: 70%;
+}
+.quick__title {
+  font-weight: 400;
+  font-size: clamp(32px, 9cqi, 120px);
+  line-height: 96.7%;
+  /* 116/120 */
+  color: #181A20;
+  margin-bottom: 32px;
+}
+.quick__subtitle {
+  width: 80%;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #7D7D7D;
+}
+.quick__right {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quick__select-wrap {
+  width: 88px;
+}
+.quick__select-placeholder {
+  width: 110px;
+  position: relative;
+  padding-bottom: 12px;
+}
+.quick__select-placeholder::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  pointer-events: none;
+  background: url("../../img/icon/drop-down-black.svg") 0 0/auto auto no-repeat;
+}
+.quick__select-body {
+  width: 100%;
+  padding-bottom: 12px;
+  border-bottom: 0.5px solid #C4C4C4;
+}
+.quick__select-label {
+  padding-top: 12px;
+}
+
+/* #endregion */
+/* #region //-block cards */
+.cards {
+  container-type: inline-size;
+  row-gap: 120px;
+}
+
+.quick__card {
+  margin: 0 auto;
+  background-color: #fff;
+}
+.quick__image {
+  height: 42.5cqw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 40px;
+}
+.quick__unit {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #181A20;
+}
+.quick__table {
+  width: 100%;
+}
+.quick__table a {
+  color: #262A34;
+}
+.quick__head {
+  height: 50px;
+  vertical-align: top;
+}
+.quick__tbody {
+  vertical-align: middle;
+  height: 50px;
+  border-bottom: 1px solid #999999;
+}
+
+td:nth-of-type(even) {
+  text-align: end;
+}
+
+/* #endregion */

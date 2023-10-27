@@ -1,0 +1,85 @@
+@import "../../scss/variables";
+
+.communities {
+  padding: 120px 135px;
+
+  &__header {
+    container-type: line-size;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+    margin-bottom: 120px;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: clamp(48px, 4.9cqi, 64px);
+    // font-size: 64px;
+    line-height: 50px;
+    color: $mirage;
+    margin-top: 32px;
+  }
+
+  &__details {
+    padding-left: 60px;
+    color: $medium-grey;
+  }
+
+  &__search {
+    display: flex;
+    column-gap: 30px;
+  }
+
+  // -element select ---------------------------
+  &__select-wrap {
+    width: 142px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__select-placeholder {
+    position: relative;
+  }
+
+  &__select-placeholder::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+    background: url('../../img/icon/drop-down-black.svg') center / 16px 16px no-repeat;
+  }
+
+  &__select-body {
+    width: 100%;
+    padding-bottom: 12px;
+    border-bottom: 0.5px solid #C4C4C4;
+  }
+
+  &__select-label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: $medium-grey;
+    padding-top: 12px;
+  }
+}
+
+// -block cards ------------------------------------
+.card {
+  position: relative;
+}
+
+.sale::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 132px;
+  height: 24px;
+  background: url('../../img/other/sale.png') 0 0 / auto auto no-repeat;
+}

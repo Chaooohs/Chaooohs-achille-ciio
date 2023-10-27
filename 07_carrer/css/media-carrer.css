@@ -1,0 +1,26 @@
+@media (max-width: 1024px) {
+  .carrer__title {
+    margin-bottom: 32px;
+    font-size: clamp(32px, 12cqi, 96px);
+  }
+  .carrer__uptitle {
+    font-size: clamp(14px, 5cqi, 32px);
+  }
+  .carrer__descript {
+    font-size: clamp(30px, 6cqi, 50px);
+  }
+}
+@media (max-width: 768px) {
+  .carrer__paragraph {
+    padding-left: 0;
+  }
+}
+@media (max-width: 375px) {
+  .carrer__title {
+    margin-bottom: 24px;
+    font-size: 32px;
+  }
+  .carrer__uptitle {
+    font-size: 14px;
+  }
+}

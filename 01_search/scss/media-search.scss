@@ -1,0 +1,152 @@
+@import "../../scss/variables";
+
+@media (min-width: 1441px) {
+
+  // -block header -----------
+
+  .search-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+
+  // -block header -----------
+
+  .search-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  // -search ---------------
+
+  .search {
+    padding: 100px 80px 60px;
+  }
+
+  .map__card-box {
+    height: 588px;
+  }
+
+  .map__card {
+    padding: 0;
+  }
+}
+
+@media (max-width: 992px) {
+
+  // -header ---------------
+  .header {
+    display: none;
+  }
+
+  .header-mobile {
+    display: block;
+    background-color: $merino;
+  }
+
+  .navbar {
+    background-color: $merino !important;
+  }
+
+  // -search ---------------
+
+  .search {
+    display: none;
+  }
+
+  .search-mobile {
+    display: block;
+    display: flex;
+  }
+
+  // -map ---------------
+  .map__option {
+    column-gap: 30px;
+    padding: 30px 25px;
+  }
+
+  .form-check-label {
+    margin-left: 16px;
+  }
+
+  .map__content {
+    display: none;
+  }
+
+  .map__list {
+    width: 100%;
+  }
+
+  .map__option {
+    justify-content: flex-start;
+    padding: 30px 20px;
+  }
+
+  .map__card-box {
+    height: 700px;
+    padding: 20px;
+    background: url('../../img/back/back-map.jpg') 0 0 / cover no-repeat;
+  }
+
+  .map__card {
+    width: 50%;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 768px) {
+
+  // -search ---------
+
+  .search-mobile__select-placeholder {
+    font-size: clamp(20px, 5cqi, 36px);
+  }
+
+  // -map -------------
+
+  .map__card {
+    width: 85%;
+  }
+}
+
+@media (max-width: 450px) {
+
+  // -search -----------------
+  .search-mobile {
+    height: 96px;
+  }
+
+  .search-mobile__burger-btn {
+    width: 48px;
+    height: 48px;
+  }
+
+  // -map ------------
+
+  .map__card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 374px) {
+
+  // -map ----------------
+
+  .map__option {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+  }
+
+  .map__select-wrap {
+    width: 174px;
+  }
+
+  .map__card {
+    width: fit-content;
+    flex-direction: column;
+  }
+}

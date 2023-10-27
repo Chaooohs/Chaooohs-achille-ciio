@@ -1,0 +1,125 @@
+@import "../../scss/variables";
+
+/* #region //-block one */
+
+.quick {
+  &__chapter {
+    display: flex;
+    padding: 120px 0 170px 78px;
+    background-color: $merino;
+  }
+
+  &__left {
+    width: 70%;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: clamp(32px, 9cqi, 120px);
+    line-height: 96.7%;
+    /* 116/120 */
+    color: $mirage;
+    margin-bottom: 32px;
+  }
+
+  &__subtitle {
+    width: 80%;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: $medium-grey;
+  }
+
+  &__right {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__select-wrap {
+    width: 88px;
+  }
+
+  &__select-placeholder {
+    width: 110px;
+    position: relative;
+    padding-bottom: 12px;
+  }
+
+  &__select-placeholder::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+    background: url('../../img/icon/drop-down-black.svg') 0 0 / auto auto no-repeat;
+  }
+
+  &__select-body {
+    width: 100%;
+    padding-bottom: 12px;
+    border-bottom: $border-bottom;
+  }
+
+  &__select-label {
+    padding-top: 12px;
+  }
+}
+
+/* #endregion */
+
+/* #region //-block cards */
+
+.cards {
+  container-type: inline-size;
+  row-gap: 120px;
+}
+
+.quick {
+  &__card {
+    margin: 0 auto;
+    background-color: $white;
+  }
+
+  &__image {
+    height: 42.5cqw;
+    object-fit: cover;
+    margin-bottom: 40px;
+  }
+
+  &__unit {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $mirage;
+  }
+
+  &__table {
+    width: 100%;
+  }
+
+  &__table a {
+    color: $baltic-sea;
+  }
+
+  &__head {
+    height: 50px;
+    vertical-align: top;
+  }
+
+  &__tbody {
+    vertical-align: middle;
+    height: 50px;
+    border-bottom: 1px solid #999999;
+  }
+}
+
+td:nth-of-type(even) {
+  text-align: end;
+}
+
+/* #endregion */

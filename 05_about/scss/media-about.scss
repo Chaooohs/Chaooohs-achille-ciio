@@ -1,0 +1,134 @@
+@import "../../scss/variables";
+
+@media (max-width: 1024px) {
+
+  // -font-size title ---------
+
+  .about__title,
+  .about__process-title,
+  .about__column-numb,
+  .about__title-team,
+  .about__build-title {
+    font-size: clamp(30px, 6cqi, 50px);
+  }
+
+  // -block team ---------
+
+  .about__boss-img {
+    width: 417px;
+    height: 488px;
+    margin-bottom: 24px;
+  }
+
+  .about__cards {
+    grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+    row-gap: 60px;
+  }
+
+  .about__card-img {
+    width: 268px;
+    height: 312px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  // -block about team ------------
+
+  .about__descript-team {
+    padding-right: 0;
+  }
+
+  // -block about build -----------
+
+  .about__build-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+
+  // -block about chapter ----
+
+  .about__title {
+    padding-left: 0;
+  }
+
+  // -block about process -----
+
+  .about__process-title {
+    padding-left: 0;
+  }
+
+  .about__columns {
+    row-gap: 24px;
+    padding-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .about__column-talent,
+  .about__column-descript {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  // -block team ---------
+
+  .about__title-team {
+    margin-bottom: 40px;
+  }
+
+  .about__descript-team {
+    padding-right: 0;
+    margin-bottom: 60px;
+  }
+
+  .about__boss-img {
+    width: 100%;
+    height: 117cqw;
+    margin-bottom: 24px;
+  }
+
+  .about__cards {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .about__card-name {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .about__card-job {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  // -block about card member -------
+
+  .about__cards-member {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  // -block build ---------------
+
+  .about__build-title {
+    margin-bottom: 40px;
+  }
+
+  .about__build-text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .about__more {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .about__link-arrow {
+    width: 130px;
+    margin-left: 36px;
+  }
+}

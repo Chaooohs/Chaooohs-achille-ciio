@@ -1,0 +1,102 @@
+@media (min-width: 1441px) {
+  .search-mobile {
+    display: none;
+  }
+}
+@media (max-width: 1440px) {
+  .search-mobile {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .search {
+    padding: 100px 80px 60px;
+  }
+  .map__card-box {
+    height: 588px;
+  }
+  .map__card {
+    padding: 0;
+  }
+}
+@media (max-width: 992px) {
+  .header {
+    display: none;
+  }
+  .header-mobile {
+    display: block;
+    background-color: #F4F1E7;
+  }
+  .navbar {
+    background-color: #F4F1E7 !important;
+  }
+  .search {
+    display: none;
+  }
+  .search-mobile {
+    display: block;
+    display: flex;
+  }
+  .map__option {
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    padding: 30px 25px;
+  }
+  .form-check-label {
+    margin-left: 16px;
+  }
+  .map__content {
+    display: none;
+  }
+  .map__list {
+    width: 100%;
+  }
+  .map__option {
+    justify-content: flex-start;
+    padding: 30px 20px;
+  }
+  .map__card-box {
+    height: 700px;
+    padding: 20px;
+    background: url("../../img/back/back-map.jpg") 0 0/cover no-repeat;
+  }
+  .map__card {
+    width: 50%;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 768px) {
+  .search-mobile__select-placeholder {
+    font-size: clamp(20px, 5cqi, 36px);
+  }
+  .map__card {
+    width: 85%;
+  }
+}
+@media (max-width: 450px) {
+  .search-mobile {
+    height: 96px;
+  }
+  .search-mobile__burger-btn {
+    width: 48px;
+    height: 48px;
+  }
+  .map__card {
+    width: 100%;
+  }
+}
+@media (max-width: 374px) {
+  .map__option {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+  }
+  .map__select-wrap {
+    width: 174px;
+  }
+  .map__card {
+    width: -moz-fit-content;
+    width: fit-content;
+    flex-direction: column;
+  }
+}

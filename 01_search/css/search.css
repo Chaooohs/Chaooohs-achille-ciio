@@ -1,0 +1,232 @@
+/* #region // -block search */
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 110px 60px;
+  background-color: #262A34;
+}
+.search .select__body {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border-bottom: 0.5px solid #F0F0F0;
+}
+.search .select__wrap::after {
+  background: url("../../img/icon/drop-down-white.svg") center/100% no-repeat;
+}
+.search .select:nth-child(1) {
+  width: 101px;
+}
+.search .select:nth-child(2) {
+  width: 81px;
+}
+.search .select:nth-child(3) {
+  width: 83px;
+}
+.search .select:nth-child(4) {
+  width: 101px;
+}
+.search .select:nth-child(5) {
+  width: 82px;
+}
+.search .select:nth-child(6) {
+  width: 73px;
+}
+.search .select:nth-child(7) {
+  width: 91px;
+}
+.search .reset {
+  display: none;
+}
+.search .reset__label {
+  color: #fff;
+  margin-right: 16px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.search .btn-search {
+  width: 48px;
+  height: 48px;
+}
+
+/* #endregion */
+/* #region // -search mobile */
+.search-mobile {
+  width: 100%;
+  height: 160px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  background-color: #F4F1E7;
+  padding: 16px 20px 34px;
+}
+.search-mobile__select-wrap {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.search-mobile__select-placeholder {
+  position: relative;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 120%;
+  /* 24/20 */
+  letter-spacing: 0.03em;
+  color: #000;
+}
+.search-mobile__select-placeholder::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+  background: url("../../img/icon/drop-down-black.svg") center/24px 24px no-repeat;
+}
+.search-mobile__select-body {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #999999;
+}
+.search-mobile__burger-btn {
+  width: 68px;
+  height: 68px;
+}
+
+/* #endregion */
+/* #region // -map */
+.map {
+  display: flex;
+}
+.map__content {
+  width: 60cqw;
+}
+.map__frame {
+  width: 100%;
+  height: 100%;
+}
+.map__list {
+  width: 40%;
+}
+.map__option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 30px 40px;
+}
+.map .form-check {
+  width: 200px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.map .form-switch {
+  padding-left: 1.7em;
+}
+.map .form-check-input {
+  box-shadow: none;
+  cursor: pointer;
+  box-shadow: none !important;
+  margin-left: -1.5em;
+}
+.map .form-check-label {
+  margin-left: 32px;
+  cursor: pointer;
+}
+.map .form-check-label-one {
+  margin-bottom: 8px;
+}
+.map__select-wrap {
+  width: 108px;
+  display: flex;
+  flex-direction: column;
+}
+.map__select-placeholder {
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #181A20;
+  padding-bottom: 12px;
+}
+.map__select-placeholder::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  pointer-events: none;
+  background: url("../../img/icon/drop-down-black.svg") center/100% no-repeat;
+}
+.map__select-body {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  padding-bottom: 12px;
+  border-bottom: 0.5px solid #C4C4C4;
+}
+.map__select-label {
+  padding-top: 32px;
+}
+.map__card-box {
+  height: 700px;
+  overflow: auto;
+}
+.map__card {
+  width: 100%;
+  display: flex;
+  padding: 30px 0 30px 30px;
+  background-color: #fff;
+}
+.map__card:hover {
+  background-color: #f0f0f0;
+}
+.map__image {
+  width: 200px;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.map__descript {
+  padding: 30px 0 30px 30px;
+}
+.map__descript H4 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #181A20;
+}
+.map__el {
+  margin-bottom: 4px;
+}
+.map__el2 {
+  margin-bottom: 30px;
+}
+.map__el3 {
+  margin-bottom: 4px;
+}
+.map__el4 {
+  margin-bottom: 30px;
+}
+.map__el5 {
+  margin-bottom: 30px;
+}
+.map__e6 {
+  margin-bottom: 16px;
+}
+.map__descript a {
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 10px;
+  color: #181A20;
+}
+
+/* #endregion */

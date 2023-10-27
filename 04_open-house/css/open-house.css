@@ -1,0 +1,91 @@
+.open__chapter {
+  padding-right: 170px;
+  padding-bottom: 50px;
+  background: url("../../img/back/back-open-house.jpg") 0 0/cover no-repeat;
+}
+.open__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(70px, 12cqi, 120px);
+  line-height: 96.7%;
+  /* 116/120 */
+  color: #fff;
+  margin-bottom: 32px;
+}
+.open__descript {
+  width: 760px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 125%; /* 40/32 */
+  color: #fff;
+}
+.open__cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 120px;
+}
+.open__card {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  row-gap: 4px;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  padding-bottom: 120px;
+  border-bottom: 2px solid #999999;
+}
+.open__mouth {
+  grid-row: 1;
+  grid-column: 1;
+  color: #0F0F0F;
+}
+.open__lane {
+  grid-row: 1;
+  grid-column: 2;
+  color: #0F0F0F;
+}
+.open__number {
+  grid-row: 2;
+  grid-column: 1;
+  font-weight: 400;
+  font-size: clamp(47px, 6cqi, 64px);
+  line-height: 50px;
+  color: #0F0F0F;
+}
+.open__sales {
+  grid-row: 2;
+  grid-column: 2/4;
+  font-weight: 400;
+  font-size: clamp(47px, 6cqi, 64px);
+  line-height: 50px;
+  color: #0F0F0F;
+}
+.open__lane-two {
+  grid-row: 2;
+  grid-column: 4/5;
+  font-size: clamp(18px, 3cqi, 32px);
+  color: #0F0F0F;
+}
+.open__time {
+  grid-row: 3;
+  grid-column: 1;
+  color: #0F0F0F;
+}
+.open__address {
+  grid-row: 3;
+  grid-column: 2/3;
+  color: #0F0F0F;
+}
+.open__card-descritp {
+  grid-row: 3;
+  grid-column: 3/5;
+  color: #0F0F0F;
+}
+.open__img {
+  grid-row: 1/4;
+  grid-column: 5/7;
+  width: 30cqw;
+  height: 28.3cqw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

@@ -1,0 +1,128 @@
+.about__chapter {
+  background-color: #F4F1E7;
+}
+.about__title {
+  padding-left: 100px;
+}
+.about__process {
+  background-color: #fff;
+}
+.about__process-title {
+  padding-left: 100px;
+  margin-bottom: 60px;
+}
+.about__columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  row-gap: 3rem;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  padding-left: 100px;
+  margin-bottom: 120px;
+}
+.about__column-numb {
+  margin-bottom: 10px;
+}
+.about__column-descript {
+  color: #181A20;
+}
+.about__team {
+  background-color: #262A34;
+}
+.about__title-team {
+  color: #fff;
+  margin-bottom: 80px;
+}
+.about__descript-team {
+  color: #fff;
+  margin-bottom: 120px;
+  padding-right: 300px;
+}
+.about__boss {
+  display: flex;
+  justify-content: flex-end;
+}
+.about__card-boss {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 92px;
+}
+.about__boss-img {
+  width: 470px;
+  height: 550px;
+  margin-bottom: 40px;
+  background-color: #FE7B1E;
+}
+.about__card-name {
+  margin-bottom: 8px;
+  color: #fff;
+}
+.about__card-job {
+  color: #fff;
+}
+.about__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  row-gap: 92px;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.about__card {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+.about__card-img {
+  height: 432px;
+  margin-bottom: 40px;
+  background-color: rgba(24, 26, 32, 0.8);
+}
+.about__cards-member {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+  row-gap: 60px;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.about__card-img-memb {
+  width: 268px;
+  height: 314px;
+  margin-bottom: 40px;
+  background-color: rgba(24, 26, 32, 0.8);
+}
+.about__build {
+  background-color: #fff;
+}
+.about__build-title {
+  margin-bottom: 120px;
+}
+.about__build-content-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+.about__build-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.about__build-img {
+  margin-bottom: 32px;
+}
+.about__build-text {
+  margin-bottom: 32px;
+}
+.about__more {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: #181A20;
+  margin-bottom: 60px;
+}
+.about__more:hover {
+  color: #181A20;
+}
+.about__link-arrow {
+  width: 160px;
+}

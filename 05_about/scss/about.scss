@@ -1,0 +1,167 @@
+@import "../../scss/variables";
+
+.about {
+
+  // -block chapter -----
+  
+  &__chapter {
+    background-color: $merino;
+  }
+
+  &__title {
+    padding-left: 100px;
+  }
+
+  // -block about processs -------------
+
+
+  &__process {
+    background-color: $white;
+  }
+
+
+  &__process-title {
+    padding-left: 100px;
+    margin-bottom: 60px;
+  }
+
+  &__columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 3rem;
+    column-gap: 30px;
+    padding-left: 100px;
+    margin-bottom: 120px;
+  }
+
+  &__column-numb {
+    margin-bottom: 10px;
+  }
+
+  &__column-descript {
+    color: $mirage;
+  }
+
+  // -block team -------------------
+
+  &__team {
+    background-color: $baltic-sea;
+  }
+
+  &__title-team {
+    color: $white;
+    margin-bottom: 80px;
+  }
+
+  &__descript-team {
+    color: $white;
+    margin-bottom: 120px;
+    padding-right: 300px;
+  }
+
+  &__boss {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__card-boss {
+    width: fit-content;
+    margin-bottom: 92px;
+  }
+
+  &__boss-img {
+    width: 470px;
+    height: 550px;
+    margin-bottom: 40px;
+    background-color: #FE7B1E;
+  }
+
+  &__card-name {
+    margin-bottom: 8px;
+    color: $white;
+  }
+
+  &__card-job {
+    color: $white;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    row-gap: 92px;
+    column-gap: 1rem;
+  }
+
+  &__card {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  &__card-img {
+    height: 432px;
+    margin-bottom: 40px;
+    background-color: rgba(24, 26, 32, 0.8);
+  }
+
+  // -about team member --------------
+
+  &__cards-member {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+    row-gap: 60px;
+    column-gap: 1rem;
+  }
+
+  &__card-img-memb {
+    width: 268px;
+    height: 314px;
+    margin-bottom: 40px;
+    background-color: rgba(24, 26, 32, 0.8);
+  }
+
+  // -about build ----------------
+
+  &__build {
+    background-color: $white;
+  }
+
+  &__build-title {
+    margin-bottom: 120px;
+  }
+
+  &__build-content-wrap {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__build-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__build-img {
+    margin-bottom: 32px;
+  }
+
+  &__build-text {
+    margin-bottom: 32px;
+  }
+
+  &__more {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: $mirage;
+    margin-bottom: 60px;
+  }
+  &__more:hover {
+    color: $mirage;
+  }
+
+  &__link-arrow {
+    width: 160px;
+  }
+}

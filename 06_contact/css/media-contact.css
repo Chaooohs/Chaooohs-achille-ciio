@@ -1,0 +1,21 @@
+@media (max-width: 1024px) {
+  .contact {
+    padding: 100px 132px 110px;
+  }
+  .contact__title {
+    font-size: clamp(64px, 14cqi, 96px);
+  }
+}
+@media (max-width: 992px) {
+  .contact {
+    padding: 100px 80px 110px;
+  }
+  .contact__descript {
+    font-size: clamp(14px, 5cqi, 32px);
+  }
+}
+@media (max-width: 768px) {
+  .contact {
+    padding: 40px 20px 60px;
+  }
+}

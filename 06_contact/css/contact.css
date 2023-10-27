@@ -1,0 +1,45 @@
+.contact {
+  container-type: inline-size;
+  text-align: center;
+  background-color: #262A34;
+  padding: 120px 23.6% 140px;
+}
+.contact__title {
+  font-weight: 400;
+  font-size: clamp(96px, 16cqi, 120px);
+  line-height: 96.7%;
+  /* 116/120 */
+  color: #fff;
+  margin-bottom: 33px;
+}
+.contact__descript {
+  font-weight: 400;
+  font-size: clamp(14px, 5cqi, 32px);
+  line-height: 133.3%;
+  /* 40/30 */
+  color: #fff;
+  margin-bottom: 38px;
+}
+.contact__link {
+  position: relative;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-right: 150px;
+  color: #fff;
+}
+.contact__link::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 2px;
+  right: 0;
+  width: 32px;
+  height: 14px;
+  background: url("../../img/icon/arrow-white.svg") 0 0/100% no-repeat;
+}
+.contact__link:hover {
+  font-weight: bold;
+  color: #fff;
+}

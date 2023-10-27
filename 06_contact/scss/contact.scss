@@ -1,0 +1,52 @@
+@import "../../scss/variables";
+
+.contact {
+  container-type: inline-size;
+  text-align: center;
+  background-color: $baltic-sea;
+  padding: 120px 23.6% 140px;
+
+  &__title {
+    font-weight: 400;
+    font-size: clamp(96px, 16cqi, 120px);
+    line-height: 96.7%;
+    /* 116/120 */
+    color: $white;
+    margin-bottom: 33px;
+  }
+
+  &__descript {
+    font-weight: 400;
+    font-size: clamp(14px, 5cqi, 32px);
+    line-height: 133.3%;
+    /* 40/30 */
+    color: $white;
+    margin-bottom: 38px;
+  }
+
+  &__link {
+    position: relative;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-right: 150px;
+    color: $white;
+  }
+
+  &__link::after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 2px;
+    right: 0;
+    width: 32px;
+    height: 14px;
+    background: url('../../img/icon/arrow-white.svg') 0 0 / 100% no-repeat;
+  }
+
+  &__link:hover {
+    font-weight: bold;
+    color: $white;
+  }
+}

@@ -1,0 +1,83 @@
+@import "../../scss/variables";
+
+.blog {
+
+  // -block chapter ----------------
+
+  &__chapter {
+    padding: 0 30px;
+    background-color: $merino;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: clamp(76px, 11cqi, 120px);
+    line-height: 96.7%;
+    /* 116/120 */
+    margin-bottom: 60px;
+    color: $mirage;
+  }
+
+  &__uptitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 133.3%;
+    /* 40/30 */
+    text-align: center;
+    color: $medium-grey;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1px;
+  }
+
+  &__border {
+    border-bottom: 1px solid $seashell;
+  }
+
+  &__card {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 30px;
+    align-items: center;
+    background-color: $white;
+  }
+
+  &__author {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+
+  &__place {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $mirage;
+  }
+
+  &__date,
+  &__by {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: $baltic-sea;
+  }
+
+  &__descript {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 133.3%; /* 40/30 */
+    color: $black;
+  }
+
+  &__image {
+    width: 370px;
+    height: 250px;
+    object-fit: cover;
+  }
+}
